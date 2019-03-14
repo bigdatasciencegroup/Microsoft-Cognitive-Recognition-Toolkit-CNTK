@@ -660,7 +660,7 @@ namespace CNTK
 
         return true;
     }
-	
+
     bool MPICommunicatorImpl::ShouldUseFP16AllReduce(const NDArrayViewPtr& viewPtr)
     {
         // currenly AllReduceDataHalf only supports NCCL/ and on GPU data
